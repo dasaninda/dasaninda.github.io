@@ -883,7 +883,10 @@ main {
   height: 100%;
   border-radius: inherit;
 }
-
+mark.blue {
+  color: rgb(160, 220, 244);
+  background-color: none;
+}
 
 
 
