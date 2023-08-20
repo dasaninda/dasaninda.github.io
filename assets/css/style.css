@@ -331,10 +331,14 @@ main {
   gap: 15px;
 }
 
-.avatar-box {
+.avatar-box{
   border-radius: 30px;
-  border-image: round;   
+  border-image: round;
 }
+.avatar{
+  border-radius: 50%;
+}
+
 
 .info-content .name {
   color: var(--white-2);
@@ -1357,7 +1361,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .sidebar-info { gap: 25px; }
 
-  .avatar-box { border-radius: 30px; }
+  .avatar-box { border-radius: 40%; }
 
   .avatar-box img { width: 120px; }
 
